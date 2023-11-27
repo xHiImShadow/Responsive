@@ -1,0 +1,48 @@
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 20px auto;
+    background: pink;
+    height: 500px;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.box{
+    width: 150px;
+    background-color: bisque;
+    margin: 0 10px;
+}
+.logo{
+    height: 80px;
+    display: block;
+}
+.logo img{
+    height: 100%;
+}
+.burger {
+    display: none;
+    color: white;
+}
+@media ( max-width : 1024px ){
+    .container {
+        background: gold;
+    }
+
+}
+@media ( max-width : 768px ){
+    .container {
+        background: peru;
+    }
+}
+@media ( max-width : 480px ) {
+    .container {
+        background: greenyellow;
+    }
+    .flex{
+        justify-content: center;
+    }
+}
